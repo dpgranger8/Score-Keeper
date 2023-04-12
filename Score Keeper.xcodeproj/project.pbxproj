@@ -16,6 +16,10 @@
 		7E23F53229E4522D00859569 /* Score_KeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F53129E4522D00859569 /* Score_KeeperTests.swift */; };
 		7E23F53C29E4522D00859569 /* Score_KeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F53B29E4522D00859569 /* Score_KeeperUITests.swift */; };
 		7E23F53E29E4522D00859569 /* Score_KeeperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F53D29E4522D00859569 /* Score_KeeperUITestsLaunchTests.swift */; };
+		7E23F54B29E458C900859569 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F54A29E458C900859569 /* PlayerTableViewCell.swift */; };
+		7E23F54F29E459FE00859569 /* NewPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F54E29E459FE00859569 /* NewPlayerViewController.swift */; };
+		7E23F55129E45A2600859569 /* ListOfPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F55029E45A2600859569 /* ListOfPlayers.swift */; };
+		7E23F55329E45C8600859569 /* PlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E23F55229E45C8600859569 /* PlayersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		7E23F53729E4522D00859569 /* Score KeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score KeeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E23F53B29E4522D00859569 /* Score_KeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_KeeperUITests.swift; sourceTree = "<group>"; };
 		7E23F53D29E4522D00859569 /* Score_KeeperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_KeeperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E23F54A29E458C900859569 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		7E23F54E29E459FE00859569 /* NewPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlayerViewController.swift; sourceTree = "<group>"; };
+		7E23F55029E45A2600859569 /* ListOfPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPlayers.swift; sourceTree = "<group>"; };
+		7E23F55229E45C8600859569 /* PlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				7E23F51C29E4522B00859569 /* SceneDelegate.swift */,
 				7E23F51E29E4522B00859569 /* ViewController.swift */,
 				7E23F52029E4522B00859569 /* Main.storyboard */,
+				7E23F55229E45C8600859569 /* PlayersTableViewController.swift */,
+				7E23F55029E45A2600859569 /* ListOfPlayers.swift */,
+				7E23F54E29E459FE00859569 /* NewPlayerViewController.swift */,
+				7E23F54A29E458C900859569 /* PlayerTableViewCell.swift */,
 				7E23F52329E4522D00859569 /* Assets.xcassets */,
 				7E23F52529E4522D00859569 /* LaunchScreen.storyboard */,
 				7E23F52829E4522D00859569 /* Info.plist */,
@@ -258,7 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E23F54B29E458C900859569 /* PlayerTableViewCell.swift in Sources */,
+				7E23F55329E45C8600859569 /* PlayersTableViewController.swift in Sources */,
 				7E23F51F29E4522B00859569 /* ViewController.swift in Sources */,
+				7E23F54F29E459FE00859569 /* NewPlayerViewController.swift in Sources */,
+				7E23F55129E45A2600859569 /* ListOfPlayers.swift in Sources */,
 				7E23F51B29E4522B00859569 /* AppDelegate.swift in Sources */,
 				7E23F51D29E4522B00859569 /* SceneDelegate.swift in Sources */,
 			);
